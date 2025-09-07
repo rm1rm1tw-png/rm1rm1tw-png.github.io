@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>客製化紙紮服務 - 紙藝職人</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/feather-icons/dist/feather.min.js"></script>
+    <script src="https://unpkg.com/feather-icons"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@300;400;500;700&display=swap');
+        body { font-family: 'Noto Sans TC', sans-serif; }
+        .hero-gradient { background: linear-gradient(135deg, #f5f7fa 0%, #e4e8ed 100%); }
+        .product-card:hover { transform: translateY(-5px); box-shadow: 0 10px 25px rgba(0,0,0,0.1); }
+        .nav-link:hover { color: #9f7aea; }
+        .gallery-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); gap: 1rem; }
+    </style>
+
+</head>
+<body class="bg-gray-50">
+
+    <nav class="bg-white shadow-sm py-4">
+        <div class="container mx-auto px-4 flex justify-between items-center">
+            <a href="index.html" class="text-2xl font-bold text-purple-600">紙藝職人</a>
+            <div class="hidden md:flex space-x-8">
+                <a href="index.html" class="nav-link text-gray-700 hover:text-purple-600 transition">首頁</a>
+                <a href="products/index.html" class="nav-link text-gray-700 hover:text-purple-600 transition">商品</a>
+            </div>
+            <button class="md:hidden"><i data-feather="menu"></i></button>
+        </div>
+    </nav>
+    
+<main class="min-h-screen">
+
+
+<main class="page-container">
+<h1 class="page-title">客製化紙紮服務</h1>
+<section class="section">
+<p>我們提供專業客製化紙紮服務，依照您的需求打造獨一無二的紙紮作品。</p>
+<ul>
+<li>🚗 1:1 車輛（藍寶堅尼、賓利、特斯拉等）</li>
+<li>🏍️ 重機（杜卡迪、忍者等）</li>
+<li>🏠 客製房屋 / 店鋪</li>
+<li>🎨 客製顏色、樣式設計</li>
+</ul>
+</section>
+</main>
+
+
+</main>
+
+        <!-- Footer -->
+    <footer class="bg-gray-800 text-white py-12">
+        <div class="container mx-auto px-4">
+            <div class="grid md:grid-cols-4 gap-8">
+                <div>
+                    <h3 class="text-xl font-bold mb-4">紙藝職人</h3>
+                    <p class="text-gray-400">傳承文化・精緻紙紮</p>
+                </div>
+                <div>
+                    <h4 class="font-semibold mb-4">快速連結</h4>
+                    <ul class="space-y-2">
+                        <li><a href="#" class="text-gray-400 hover:text-white transition">首頁</a></li>
+                        <li><a href="products/index.html" class="text-gray-400 hover:text-white transition">商品</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 class="font-semibold mb-4">聯絡資訊</h4>
+                    <ul class="space-y-2 text-gray-400">
+                        <li class="flex items-center space-x-2">
+                            <i data-feather="phone"></i>
+                            <span>30678</span>
+                        </li>
+                        <li class="flex items-center space-x-2">
+                            <i data-feather="mail"></i>
+                            <span>87@fuck.com</span>
+                        </li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 class="font-semibold mb-4">追蹤44看</h4>
+                    <div class="flex space-x-4">
+                        <a href="#" class="text-gray-400 hover:text-white transition">
+                            <i data-feather="facebook"></i>
+                        </a>
+                        <a href="#" class="text-gray-400 hover:text-white transition">
+                            <i data-feather="instagram"></i>
+                        </a>
+                        <a href="#" class="text-gray-400 hover:text-white transition">
+                            <i data-feather="twitter"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="border-t border-gray-700 mt-12 pt-8 text-center text-gray-400">
+                <p>© 2025 啵啵宏. 版權所有</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        AOS.init({
+            duration: 800,
+            easing: 'ease-in-out',
+            once: true
+        });
+        feather.replace();
+    </script>
+</body>
+</html>
+
